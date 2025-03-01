@@ -18,7 +18,7 @@ class LocalUserManagerImpl(
         }
     }
 
-    override suspend fun retrieveAppEntry(): Flow<Boolean> {
+    override fun retrieveAppEntry(): Flow<Boolean> {
         return context.dataStore.data.map { preferences ->
             preferences[PreferenceKeys.APPS_ENTRY] ?: false
         }

@@ -6,6 +6,6 @@ interface LocalUserManager {
 
     suspend fun saveAppEntry()
 
-    suspend fun retrieveAppEntry(): Flow<Boolean>
+    fun retrieveAppEntry(): Flow<Boolean>
 
 }
