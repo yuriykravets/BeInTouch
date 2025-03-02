@@ -1,4 +1,4 @@
-package com.partitionsoft.beintouch.domain.usecases
+package com.partitionsoft.beintouch.domain.usecases.app_entry
 
 data class AppEntryUseCases(
     val retrieveAppEntry: RetrieveAppEntry,

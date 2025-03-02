@@ -1,4 +1,4 @@
-package com.partitionsoft.beintouch.domain.usecases
+package com.partitionsoft.beintouch.domain.usecases.app_entry
 
 import com.partitionsoft.beintouch.domain.manager.LocalUserManager
 
